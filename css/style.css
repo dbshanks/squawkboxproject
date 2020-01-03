@@ -1,0 +1,107 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo-brand {
+    width: 200px;
+}
+
+#jumbotron {
+    margin-bottom: 10rem;
+}
+
+.logo-text {
+    color: #fff;
+}
+
+.box {
+    color: #ac343d;
+}
+
+#promotional-cards {
+    margin-bottom: 10rem;
+}
+
+#squawker-images {
+    margin-bottom: 10rem;
+}
+
+
+
+#squawk-samples {
+    margin-bottom: 10rem;
+}
+
+#user-image-heading {
+    margin-bottom: 3rem;
+}
+
+.circle-thumbnail {
+    border-radius: 50%;
+    padding: 1rem;
+    filter: grayscale(1);
+}
+
+#sign-up {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#signup-confirmation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#confirmation-card {
+    width: 30rem;
+}
+
+.sign-up-heading {
+    margin-bottom: 4rem;
+}
+
+.sign-up-heading-text {
+    margin-top: 3rem;
+}
+
+.logo-splash {
+    width: 40rem;
+}
+
+.hide-card {
+    visibility: hidden;
+}
+
+.footer {
+    padding: 3rem;
+    background: #1c1e22;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+
+@media screen and (max-width: 800px) {
+    #squawker-images {
+        display: none;
+    }
+
+    #confirmation-card {
+        width: 100% !important;
+    }
+
+    .footer-logo {
+        width: 300px;
+    }
+}
